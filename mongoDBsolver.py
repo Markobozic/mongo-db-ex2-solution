@@ -2,7 +2,7 @@ import sys
 import requests
 
 
-def get_parameters():
+def validate_parameter_length():
   """Check that the program is given valid number of arguements
 
      Args:
