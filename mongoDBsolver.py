@@ -19,7 +19,7 @@ def validate_parameter_length():
 
 
 ADMIN_KEYWORD: str = "admin"
-BASE_URL: str = 'http://' + get_parameters() + '/mongodb/example2/'
+BASE_URL: str = 'http://' + validate_parameter_length() + '/mongodb/example2/'
 ALPHANUMERIC_CHARS: str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
 
